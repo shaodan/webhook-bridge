@@ -1,0 +1,14 @@
+version: '3'
+
+services:
+  webhook-bridge:
+    build:
+      context: .
+    image: webhookbd
+    container_name: webhookbd
+    restart: always
+    environment:
+      - GIN_MODE=release
+      - FEISHU_BOT_WEBHOOK_URL=${FEISHU_BOT_WEBHOOK_URL}
+    ports:
+      - "8083:8083"
