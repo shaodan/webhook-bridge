@@ -1,14 +1,14 @@
-# GitLab Webhook to Feishu Bot
+# Webhook Bridge
 
 This project allows you to set up a webhook in GitLab that will send notifications to a Feishu bot when specific actions occur in your repository.
 
 ## 待开发功能
-[] 更多event，优先级 comment
+
+[] 更多 event，优先级 comment
 [] 消息格式优化, 带链接
-[] 绑定gitlab & feishu user, 自动@
+[] 绑定 gitlab & feishu user, 自动@
 [] 应用机器人：支持发送飞书消息，实现操作命令
 [] 支持多项目多群
-
 
 ## 补充信息
 
